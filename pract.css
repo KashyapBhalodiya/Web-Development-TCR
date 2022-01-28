@@ -1,0 +1,16 @@
+.f1 {
+    margin-left: 200px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    font-display: swap;
+}
+
+.Image {
+    margin-left: 200px;
+    alt: Sunset Image;
+    height: 300px;
+    width: 300px;
+}

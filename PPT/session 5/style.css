@@ -1,0 +1,23 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    /* same as the above thing */
+    font: 100px Arial, Helvetica, sans-serif bold;
+    line-height: 40px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 {
+    background-color: lightcoral;
+    border-right: rgb(221, 68, 8) solid 15px;
+    border-left: rgb(221, 68, 8) solid 15px;
+    border-top: green solid 15px;
+    border-bottom: green solid 15px;
+    padding: 20px 25px 20px 25px; /* top, right, bottom, left */
+}

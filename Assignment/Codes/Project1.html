@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body background="./Images/IMG.jpg" style="background-size: 100%;">
+    <h1 align ="center"><u>Product Purchase Form</u></h1>
+    <font size="3" face="cambria">
+    <form method="get" target="_blank" class="container">
+        <table>
+            <tr>
+                <td>
+                    <lable for="username"><b> Name :</b></lable>
+                </td>
+                <td> 
+                    <input type="text" name="name" size="30" maxlength="20"></td></br>
+                </td>
+                <tr>
+                    <td>
+                    <lable for="Email"><b> E-mail :</b></lable>
+                </td>
+                <td>
+                    <input type="email" name="email" size="30" value="" required/>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Gender"><b> Gender :</b></lable>
+                </td>
+                <td>
+                    <input type="radio" autocomplete="off"> Male
+                    <input type="radio" autocomplete="off"> Female
+                    <input type="radio" autocomplete="off"> Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b for="Address"><b> Address :</b></lable>
+                </td>
+                <td>
+                    <textarea name="address" cols="30" rows="5"> </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable for="city"><b> City : </b></lable>
+                </td>
+                <td>
+                    <select name="city">
+                        <option selected=" " value="default">(Please Select A City) </option>
+                        <option value="AHM"> AHMEDABAD</option>
+                        <option value="GH"> GANDHINAGAR</option>
+                        <option value="MEH"> MEHSANA</option>
+                        <option value="MI"> MUMBAI</option>
+                        <option value="BR"> JAIPUR</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <lable><b> Select Day For Delivery :</b></lable>
+                </td>
+                <td>
+                    <input type="checkbox" name="Mon" Value="yes">Monday<br>
+                    <input type="checkbox" name="tue" Value="yes">Tuesday<br>
+                    <input type="checkbox" name="wed" Value="yes">Wednesday<br>
+                    <input type="checkbox" name="thu" Value="yes">Thrusday<br>
+                    <input type="checkbox" name="fri" Value="yes">Fridayday<br>
+                    <input type="checkbox" name="sat" Value="yes">Saturday<br>
+                    <input type="checkbox" name="sun" Value="yes">Sunday<br>
+                </td>
+            </tr>        
+            <tr>
+                <tr>
+                    <td>
+                        <label for="dt"><b> Date :</b></label>
+                    </td>
+                    <td>
+                            <input type="date" name="date"> 
+                    </td>
+                </tr>
+            </tr>
+        </table>
+        <br>
+        <input class=".btn btn-success" type="submit" name="submit" value="Submit">
+        <input class=".btn btn-danger" type="reset" name="reset" value="Reset">
+    </form>
+</body>
+</html>
