@@ -1,0 +1,53 @@
+body{
+    background-color:#f4f4f4 ;
+    color: #555555;
+
+    font:normal 18px Arial, Helvetica, sans-serif ;
+    line-height: 1.6em;
+}
+.container{
+    width: 80%;
+    margin:auto ;
+}
+
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid #000;
+    margin-top: 30px;
+    position: relative; 
+}
+
+.p-box h1{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 50px;
+}
+
+.fix-me{
+    position: fixed;
+    top: 100px;
+    left: 0px;
+}
+.my-list{
+    width: 100px;
+}
+
+.my-list li:first-child{
+    background-color: red;
+   
+}
+.my-list li:last-child{
+    background-color: blue;
+}
+.my-list li:nth-child(5){
+    background-color: yellow;
+}
+.my-list li:nth-child(even){
+    background-color: gray;
+}
